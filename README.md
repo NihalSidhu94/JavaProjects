@@ -1,7 +1,7 @@
 # JavaProjects
 These are the Java projects that I have been working on/completed during my internship at Birlasoft.
 
-### Assignment 1
+### "Guess a number from 1 to 100"
 This assignment involved me creating a project that randomized a value from 0 - 100, and a user had infinite number of guesses to reach the correct randomized value. The project would respond to the user, depending on how many guesses it took, and the user recieves an option to play again. I had to validate if user responses were actually number values.
 
 ### Assignment 2
