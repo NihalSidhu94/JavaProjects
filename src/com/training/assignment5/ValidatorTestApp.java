@@ -14,10 +14,10 @@ public class ValidatorTestApp {
         String choiceTest = "Select one (x/y):";
 
         System.out.println("Int Test");
-        valid.getIntWithinRange(intPrompt, 0, 100);
+        valid.getIntWithinRange(intPrompt, -100, 100);
         System.out.println();
         System.out.println("Double Test");
-        valid.getDoubleWithinRange(doublePrompt, 0, 100);
+        valid.getDoubleWithinRange(doublePrompt, -100, 100);
         System.out.println();
         System.out.println("Required String Test");
         valid.getRequiredString(stringTest);
