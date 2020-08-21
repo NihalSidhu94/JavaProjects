@@ -16,7 +16,7 @@ public class Employee extends Person {
         String response = "";
         response = "Name: " + firstName + " " + lastName +
                 "\n" + "Email: " + email +
-                "\n" + "Social security number number: " + socialSecurity;
+                "\n" + "Social security number : " + socialSecurity;
         return response;
     }
 

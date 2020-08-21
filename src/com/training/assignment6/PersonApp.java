@@ -32,7 +32,7 @@ public class PersonApp {
                 userEmp.setCustomerNumber(userNum);
 
                 System.out.println("You entered: ");
-                System.out.println(userEmp.toString());
+                System.out.println(userEmp.getDisplayText());
                 cont = valid.yesOrNo(user);
             }
             else
@@ -51,7 +51,7 @@ public class PersonApp {
                 String userSS = user.next();
                 userEmp.setSocialSecurity(userSS);
                 System.out.println("You entered: ");
-                System.out.println(userEmp.toString());
+                System.out.println(userEmp.getDisplayText());
                 cont = valid.yesOrNo(user);
             }
         }
